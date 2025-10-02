@@ -35,5 +35,5 @@ System.out.println("Com faig la crida perquè funcione????");
 }
 Aquesta funció com l'he de cridar des del mètode MAIN perquè funcione. Existeixen 2 possibilitats. Explica-les.
 
-1.	Llamando al método desde la función principal, es decir, desde function1();
+1.	Llamando al método desde la función principal, es decir, desde function1(); siempre y cuando la función funcion2 se haya declarado como estática.
 2.	Instanciando un objeto de la clase y llamando a dicho método.
