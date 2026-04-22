@@ -14,4 +14,11 @@ class ZappingTest {
     void de1a2_devuelve1() {
         assertEquals(1, Zapping.minClicks(1, 2));
     }
+
+    @Test
+    void de10a30_devuelve20() {
+        assertEquals(20, Zapping.minClicks(10, 30));
+    }
+
+
 }
