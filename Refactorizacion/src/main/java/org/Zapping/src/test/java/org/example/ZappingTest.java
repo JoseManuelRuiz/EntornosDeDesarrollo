@@ -20,5 +20,8 @@ class ZappingTest {
         assertEquals(20, Zapping.minClicks(10, 30));
     }
 
-
+    @Test
+    void de2a99_devuelve2() {
+        assertEquals(2, Zapping.minClicks(2, 99));
+    }
 }
