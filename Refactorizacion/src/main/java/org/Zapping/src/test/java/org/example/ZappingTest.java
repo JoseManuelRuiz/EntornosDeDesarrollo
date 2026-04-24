@@ -24,4 +24,19 @@ class ZappingTest {
     void de2a99_devuelve2() {
         assertEquals(2, Zapping.minClicks(2, 99));
     }
+
+    @Test
+    void de5a63_devuelve41() {
+        assertEquals(41, Zapping.minClicks(5, 63));
+    }
+
+    @Test
+    void de63a5_devuelve41() {
+        assertEquals(41, Zapping.minClicks(63, 5));
+    }
+
+    @Test
+    void de1a51_devuelve49() {
+        assertEquals(49, Zapping.minClicks(1, 51));
+    }
 }
