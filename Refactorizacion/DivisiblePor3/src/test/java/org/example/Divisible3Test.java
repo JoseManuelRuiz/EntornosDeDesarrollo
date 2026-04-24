@@ -14,4 +14,11 @@ class Divisible3Test {
     void test6() {
         assertEquals("SI", Divisible3.esDivisible(6));
     }
+
+    @Test
+    void test4() {
+        assertEquals("NO", Divisible3.esDivisible(4));
+    }
+
+
 }
