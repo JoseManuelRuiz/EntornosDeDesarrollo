@@ -11,6 +11,7 @@
     <modules>
         <module>src/main/java/org/Zapping</module>
         <module>DivisiblePor3</module>
+        <module>PasswordVerify</module>
     </modules>
 
     <properties>
